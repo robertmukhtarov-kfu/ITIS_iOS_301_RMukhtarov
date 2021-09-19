@@ -12,6 +12,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let button = UIButton(type: .system)
         button.setTitle("Print Hello World", for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 18)
         button.sizeToFit()
         button.center = view.center
         view.addSubview(button)
