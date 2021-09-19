@@ -10,6 +10,10 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let button = UIButton(type: .system)
+        button.setTitle("Print Hello World", for: .normal)
+        button.sizeToFit()
+        button.center = view.center
+        view.addSubview(button)
     }
 }
