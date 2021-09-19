@@ -15,5 +15,10 @@ class ViewController: UIViewController {
         button.sizeToFit()
         button.center = view.center
         view.addSubview(button)
+        button.addTarget(self, action: #selector(printHelloWorld), for: .touchUpInside)
+    }
+    
+    @objc private func printHelloWorld() {
+        print("Hello World")
     }
 }
