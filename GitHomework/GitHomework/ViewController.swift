@@ -10,6 +10,17 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let button = UIButton(type: .system)
+        button.setTitle("Print Hello World", for: .normal)
+        button.titleLabel?.font = .boldSystemFont(ofSize: 18)
+        button.setTitleColor(.systemGreen, for: .normal)
+        button.sizeToFit()
+        button.center = view.center
+        view.addSubview(button)
+        button.addTarget(self, action: #selector(printHelloWorld), for: .touchUpInside)
+    }
+    
+    @objc private func printHelloWorld() {
+        print("Hello World")
     }
 }
