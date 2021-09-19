@@ -13,6 +13,7 @@
 		E79F656926F7B83900C7D022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79F656726F7B83900C7D022 /* Main.storyboard */; };
 		E79F656B26F7B83A00C7D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79F656A26F7B83A00C7D022 /* Assets.xcassets */; };
 		E79F656E26F7B83A00C7D022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79F656C26F7B83A00C7D022 /* LaunchScreen.storyboard */; };
+		E7BB517B26F7C3FC00A62DFC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BB517A26F7C3FC00A62DFC /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E79F656A26F7B83A00C7D022 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E79F656D26F7B83A00C7D022 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E79F656F26F7B83A00C7D022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BB517A26F7C3FC00A62DFC /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E79F656126F7B83900C7D022 /* AppDelegate.swift */,
 				E79F656326F7B83900C7D022 /* SceneDelegate.swift */,
 				E79F656526F7B83900C7D022 /* ViewController.swift */,
+				E7BB517A26F7C3FC00A62DFC /* Student.swift */,
 				E79F656726F7B83900C7D022 /* Main.storyboard */,
 				E79F656A26F7B83A00C7D022 /* Assets.xcassets */,
 				E79F656C26F7B83A00C7D022 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				E79F656626F7B83900C7D022 /* ViewController.swift in Sources */,
 				E79F656226F7B83900C7D022 /* AppDelegate.swift in Sources */,
 				E79F656426F7B83900C7D022 /* SceneDelegate.swift in Sources */,
+				E7BB517B26F7C3FC00A62DFC /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
